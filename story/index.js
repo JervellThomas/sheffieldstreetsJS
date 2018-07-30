@@ -4,7 +4,7 @@ var del = require('./delete');
 
 //story.create()
 
-module.exports = (function() {
-create;
-del;
-})();
+module.exports = create;
+exports = del;
+
+
