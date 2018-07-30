@@ -1,11 +1,11 @@
 //display all stories 
-module.exports = {
-  
-display: function(req, res) {
-  res.send('not implemented yet');
-  return console.log('wtf isnt this working');
-},
 
+  
+exports.create = function(req, res) {
+  res.send('not implemented yet');
+};
+
+/*module.exports = {
 //Create story 
 create: function (req, res){
   res.send('not implemented yet');
@@ -21,5 +21,5 @@ module.exports = {
   
   test: function() { 
     return console.log("test funct");
-  }
-};
+  } 
+}; */

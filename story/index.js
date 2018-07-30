@@ -1,5 +1,3 @@
-var story = ('./story.js');
+var story = require('./create');
 
-
-//exports functionality to routes 
-consol;
+exports.story;
