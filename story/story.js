@@ -1,16 +1,18 @@
 //display all stories 
-module.display = function(req, res) {
+module.exports = {
+  
+var d = function(req, res) {
   res.send('not implemented yet');
-};
+},
 
 //Create story 
-exports.create = function (req, res){
+create = function (req, res){
   res.send('not implemented yet');
-};
+},
 
 //delete story 
-exports.delete = function (req, res){
+del = function (req, res){
   res.send('not implemented yet');
-};
+},
   
-  
+}
