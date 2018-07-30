@@ -1,4 +1,4 @@
-const story = ('./story.js');
+const story = ('../story/story.js');
 
 
 //exports functionality to routes 
