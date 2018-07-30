@@ -1,3 +1,9 @@
-var story = require('./create');
+var create = require('./create');
 
-exports.story;
+
+
+exports = function(req, res) {
+  
+  create(req, res);
+  
+}
