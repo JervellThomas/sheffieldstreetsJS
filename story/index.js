@@ -2,4 +2,4 @@ const story = ('../story/story.js');
 
 
 //exports functionality to routes 
-exports.story.create;
+module.exports.create = story.create;

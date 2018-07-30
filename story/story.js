@@ -1,5 +1,5 @@
 //display all stories 
-exports.disply = function(req, res) {
+module.exports = function(req, res) {
   res.send('not implemented yet');
 };
 
