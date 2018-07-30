@@ -7,7 +7,7 @@ var story = require('../story/index.js');
 router.get('/create/', story.create);  
 
 //delete story page 
-router.get('/delete', story.del);
+//router.get('/delete', story.del);
 
 
 
