@@ -4,6 +4,7 @@
 // init project
 const express = require('express');
 const app = express();
+const path = require('path');
 
 // we've started you off with Express, 
 // but feel free to use whatever libs or frameworks you'd like through `package.json`.
@@ -15,6 +16,12 @@ app.use(express.static('public'));
 app.get('/', function(request, response) {
   response.sendFile(__dirname + '/views/index.html');
 });
+
+// view engine setup
+app.set('views', path.join(__dirname, 'views'));
+app.set('view engine', 'pug');
+
+
 
 // listen for requests :)
 var listener = app.listen(process.env.PORT, function() {
