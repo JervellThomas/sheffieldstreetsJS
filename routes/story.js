@@ -1,9 +1,12 @@
 var express = require('express');
 var router = express.Router();
 
-const story = require('../story/index');
+var story = require('../story/index.js');
 
 // GET catalog home page.
-router.get('/', );  
+router.get('/story/create/', story.create);  
 
+
+
+module.exports = router;
 
