@@ -1,15 +1,15 @@
 //display all stories 
-exports.display_stories = function(req, res) {
+exports.disply = function(req, res) {
   res.send('not implemented yet');
 };
 
 //Create story 
-exports.create_story = function (req,res){
+exports.create = function (req, res){
   res.send('not implemented yet');
 };
 
 //delete story 
-exports.delete_story = function (req, res){
+exports.delete = function (req, res){
   res.send('not implemented yet');
 };
   
