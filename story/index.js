@@ -1,9 +1,7 @@
 var create = require('./create');
 
 
-
-exports = function(req, res) {
+module.exports = [
+  create,
   
-  create(req, res);
-  
-}
+];

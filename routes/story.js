@@ -4,7 +4,7 @@ var router = express.Router();
 var story = require('../story/index.js');
 
 // GET create story page.
-router.get('/create/', story.create());  
+router.get('/create/', story.create);  
 
 
 

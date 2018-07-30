@@ -1,7 +1,7 @@
 //display all stories 
 
   
-module.exports = function(req, res) {
+exports.create = function(req, res) {
   res.send('not implemented yet');
 };
 
