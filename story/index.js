@@ -1,7 +1,7 @@
 var create = require('./create');
 var del = require('./delete');
 
-var story = Object.assign({create, del});
+var story = create;
 
 module.exports = story;
 
