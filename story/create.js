@@ -1,10 +1,11 @@
 //display all stories 
 
   
-exports.create = function(req, res) {
+var create = function(req, res) {
   res.send('not implemented yet');
 };
 
+export {create};
 /* 
 module.exports = {
 //Create story 

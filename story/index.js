@@ -1,10 +1,9 @@
-var create = require('./create');
-var del = require('./delete');
-
-
+//var create = require('./create');
+//var del = require('./delete');
+import del from '.delete';
+import create from './create';
 //story.create()
 
-module.exports = create;
-exports = del;
+
 
 
