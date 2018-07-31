@@ -3,6 +3,7 @@ dependencies:
   body-parser: 1.18.3
   cookie-parser: 1.4.3
   express: 4.16.3
+  express-validator: 5.3.0
   morgan: 1.9.0
   pug: 2.0.3
 packages:
@@ -277,6 +278,15 @@ packages:
       node: '>= 0.6'
     resolution:
       integrity: sha1-Qa4u62XvpiJorr/qg6x9eSmbCIc=
+  /express-validator/5.3.0:
+    dependencies:
+      lodash: 4.17.10
+      validator: 10.4.0
+    dev: false
+    engines:
+      node: '>= 6.0.0'
+    resolution:
+      integrity: sha512-HYVtPt21zp2bHS4+xwxYNF63dlq/23kh+ZRVfyo7SBObhOpRyZ0vWolm/v9KPUfCyLqX8j7ZP42dbB0MWjCCcA==
   /express/4.16.3:
     dependencies:
       accepts: 1.3.5
@@ -832,6 +842,12 @@ packages:
       node: '>= 0.4.0'
     resolution:
       integrity: sha1-n5VxD1CiZ5R7LMwSR0HBAoQn5xM=
+  /validator/10.4.0:
+    dev: false
+    engines:
+      node: '>= 0.10'
+    resolution:
+      integrity: sha512-Q/wBy3LB1uOyssgNlXSRmaf22NxjvDNZM2MtIQ4jaEOAB61xsh1TQxsq1CgzUMBV1lDrVMogIh8GjG1DYW0zLg==
   /vary/1.1.2:
     dev: false
     engines:
@@ -880,5 +896,6 @@ specifiers:
   body-parser: ^1.18.3
   cookie-parser: ^1.4.3
   express: ^4.16.3
+  express-validator: ^5.3.0
   morgan: ^1.9.0
   pug: ^2.0.3
