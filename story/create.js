@@ -2,9 +2,9 @@
   
 module.exports = {
   
-  get: (req, res) => { 
+  get: (req, res, next) => { 
     
-    res.render('book_form', { title: 'Create Story'})
+    res.render('create_story', { title: 'Create Story'})
   },
   
   
