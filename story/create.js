@@ -1,8 +1,5 @@
-//display all stories 
-
+//creates story  
   
-exports.create = function create(req, res) {
+module.exports = function create(req, res) {
   res.send('not implemented yet');
 };
-
-

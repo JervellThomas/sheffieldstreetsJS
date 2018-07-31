@@ -1,6 +1,6 @@
-//delete story 
-function del(req, res){ 
-  res.send('delete not implemented yet');
-}
+//deletes story 
 
-exports.module = del;
+module.exports = function del(req, res){ 
+  res.send('delete not implemented yet');
+};
+
