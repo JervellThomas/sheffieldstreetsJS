@@ -12,4 +12,3 @@ router.get('/delete', story.del);
 
 
 module.exports = router;
-
