@@ -31,11 +31,6 @@ module.exports = {
     
     
     
-        
-    
-    
-    
-    
     (req, res, next) => {
       res.send('post.create_story not implemented yet')
     }
