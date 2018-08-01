@@ -1,6 +1,30 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
-  a(href='/story/create') create story!
+ .news-header
+   h2
+     | Places 
+    img(src='images/streetsicon.jpg')
+ #ajaxNews.square-layout.square-skin--news.square-skin--large.grid.grid--full
+
+
+ //a(href='/story/create') create story!
+  .grid__item.desk-one-quarter.lap-and-up-one-quarter.palm-one-half
+   .square.square--img.square--3
+     span.square__bg(style="background-image: url('images/shefworld.jpg');")
+    .square__inner
+      .square__inner__content
+        h3 Sheffield: A City of the World
+        .square-details
+          span.name-divider  Abhimanyu Yadav 
+          time(datetime='2016-11-08  ') Friday 27 October 2017
+      a.link-wrap(aria-label='Sheffield: A City of the World', href='worldcitysheff.html')
+        | Read More
+  
+ .grid__item.desk-one-quarter.lap-and-up-one-quarter.palm-one-half
+  .square.square--img.square--3
+    span.square__bg(style="background-image: url('images/');")
+    .square__inner
+      .square__inner__content
+        h3 Coming soon
+    a.link-wrap(aria-label='Celebrating the Steelers', href='') Read More
