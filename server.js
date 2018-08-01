@@ -18,8 +18,8 @@ app.use(express.static('public'));
 //app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', routes);
-app.use('/', users);
-app.use('/', story);
+app.use('/users', users);
+app.use('/story', story);
 
 /// catch 404 and forwarding to error handler
 app.use(function(req, res, next) {
