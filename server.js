@@ -16,8 +16,8 @@ app.set('view engine', 'pug');
 
 app.use(express.static('public'));
 app.use('/', routes);
-app.use('/users', users);
-app.use('/story', story);
+app.use('/', users);
+app.use('/', story);
 
 /// catch 404 and forwarding to error handler
 app.use(function(req, res, next) {
