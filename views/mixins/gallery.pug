@@ -1,7 +1,7 @@
 //takes an array of stories to be placed in the small tiles and large tiles 
 mixin gallery(storiesSmallTiles, storiesLargeTiles)
   //Loads 3 tiles 
-  - for(x = 0, y = 0; y < storiesFeatured.length; x++)
+  - for(x = 0, y = 0; y < storiesLargeTiles.length; x++)
     .grid__item.desk-one-quarter.lap-and-up-one-quarter.palm-one-half
       .square.square--img.square--3
         span.square__bg(style="background-image: url('images/shefworld.jpg');")
