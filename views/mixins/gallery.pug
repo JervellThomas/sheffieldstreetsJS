@@ -3,23 +3,26 @@ mixin article(title)
   ul
     each val in values.length ? values : ['There are no values']
       li= val
-script.
-  var featured = [1,2,3,4,5,6];
-  var story = [1,2,3,4,5,6,7,8,9,10,11,12,13];
-  for(x = 0, y = 0; 
-  y < featured.length; x++) {
-  console.log('story ' + story[x]);
-  x++;
-  console.log('story ' + story[x]);
-  console.log('featured ' + featured[y]);
-  y++;
-  if (featured[y]){
-  console.log('featured ' + featured[y]);
-  console.log('story ' + story[x]);
-  x++;
-  console.log('story ' + story[x]);
-  y++
-  }
-  }
+- for (var x = 1; x < 16; x++)
+  .div= x
+- var featured = [1,2,3,4,5,6];
+- var story = [1,2,3,4,5,6,7,8,9,10,11,12,13];
+
+//- for(x = 0, y = 0; y < featured.length; x++) 
+  -console.log('story ' + story[x]);
+  -x++;
+  -console.log('story ' + story[x]);
+ 
+  -console.log('featured ' + featured[y]);
+  -y++;
+    if (featured[y])
+    -console.log('featured ' + featured[y]);
+    -console.log('story ' + story[x]);
+    -x++;
+    -console.log('story ' + story[x]);
+    -y++
+
+ 
+
 
 +article
