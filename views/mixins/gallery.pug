@@ -1,4 +1,5 @@
-mixin gallery(storiesNotFeatured, storiesFeatured)
+//takes an array of stories to be placed in the small tiles and large tiles 
+mixin gallery(storiesSmallTiles, storiesLargeTiles)
   //Loads 3 tiles 
   - for(x = 0, y = 0; y < storiesFeatured.length; x++)
     .grid__item.desk-one-quarter.lap-and-up-one-quarter.palm-one-half
@@ -41,7 +42,7 @@ mixin gallery(storiesNotFeatured, storiesFeatured)
                 | Saturday 28 October 2017
           a.link-wrap(aria-label='Student Action for Refugees', href='studentstar.html') Read More
     - y++
-    - if (storiesFeatured[y]) //Loads 3 more in reverse if there is another featured story 
+    - if (storiesLargeTiles[y]) //Loads 3 more in reverse if there is another featured story 
 
       .grid__item.desk-one-half.lap-and-up-one-half.palm-one-whole
         .square.square--1.square--rectangle.square--img
