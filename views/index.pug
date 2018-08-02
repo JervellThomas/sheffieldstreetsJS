@@ -12,10 +12,12 @@ block content
       .square__inner__content
        h3
         | Sheffield: A City of the World
-        //.square-details
-          span.name-divider  Abhimanyu Yadav 
-          time(datetime='2016-11-08  ') Friday 27 October 2017
-         //a.link-wrap(aria-label='Sheffield: A City of the World', href='worldcitysheff.html') Read More 
+        .square-details
+         span.name-divider  Abhimanyu Yadav 
+          time(datetime='2016-11-08  ') | Friday 27 October 2017
+      a.link-wrap(aria-label='Sheffield: A City of the World', href='worldcitysheff.html') Read More 
+ include mixins/gallery.pug
+ 
     //each val in [1,2,3,4,5,6]; 
      li= val
 //-var story = [1,2,3,4,5,6,7,8,9,10,11,12,13];
